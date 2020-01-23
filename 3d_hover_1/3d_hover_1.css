@@ -1,0 +1,69 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow:400,500,600&display=swap');
+/* font-family: 'Archivo Narrow', sans-serif; */
+
+/*======= General style =======*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*======= Component style =======*/
+
+
+.account__section__wrapper{
+    height: 100vh;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+
+/* Account item */
+.account__item{
+    background-image: linear-gradient( to bottom , rgba(37, 15, 56, 0.9) , rgba(37, 15, 56, 0.9) ), url('../img/account_1.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: #ccc; */
+    padding: 20px;
+    height: 600px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    text-align: center;
+    border-radius: 15px;
+    color: #eee;
+    /* position: absolute; */
+    /* transform: rotate3d(1,1,1,-85deg); */
+}
+
+/* Account header */
+.account__header{
+    font-size: 1.4rem;
+    padding: 10px;
+    position: relative;
+}
+.account__header .back{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.account__header header{
+
+}
