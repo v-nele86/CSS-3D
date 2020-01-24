@@ -40,19 +40,18 @@ img{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background: #ccc; */
     padding: 20px;
     height: 600px;
     width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center; */
     text-align: center;
     border-radius: 15px;
     color: #eee;
     /* position: absolute; */
     /* transform: rotate3d(1,1,1,-85deg); */
+    /* transform: skewY(60deg) rotate(-45deg); */
 }
 
 /* Account header */
@@ -80,7 +79,7 @@ img{
     object-position: center;
 }
 
-/* Account register info */
+/* Account register */
 .account__info{
     display: flex;
     margin-bottom: 20px;
@@ -118,16 +117,18 @@ img{
 .account__info .info__input input{
     border: none;
     background: transparent;
-    padding: 5px;
+    padding: 5px 0;
     margin: 5px 0 5px;
     color: white;
 }
 
-
+/* Register btn */
 .register__btn{
-    background: red;
-    padding: 12px 50px;
-    border-radius: 5px;
+    background: #d92323;
+    padding: 0 70px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 22px;
     border: none;
     color: whitesmoke;
     font-size: 1.1rem;
@@ -139,13 +140,12 @@ img{
 
 /* Account member login */
 .account__login .login__question{
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 .account__login .login__link{
-    color: #4c66ac;
+    color: #3665ff;
     text-decoration: none;
 }
 .account__login .login__link:hover{
-    /* color: #4c66ac; */
-    opacity: 0.7;
+    text-decoration: underline;
 }
