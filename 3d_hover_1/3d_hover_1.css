@@ -52,6 +52,7 @@ img{
     /* position: absolute; */
     /* transform: rotate3d(1,1,1,-85deg); */
     /* transform: skewY(60deg) rotate(-45deg); */
+    transform: skew(65deg, -40deg) scale(0.5);
 }
 
 /* Account header */
